@@ -31,7 +31,7 @@ To prepare a tidy dataset perform the following steps:
 
 The main function `tidy_har_dataset()` does not assume that `UCI HAR Dataset/` directory is in the working dir. However, if it is already present, data from it are used.
 
-If directory is not present, function looks for `uci_har_dataset.zip` file. If this file is also not present, data are downloaded from the [original URL](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zipWeb) and saved into `uci_har_dataset.zip`. Then zip file is extracted.
+If directory is not present, function looks for `uci_har_dataset.zip` file. If this file is also not present, data are downloaded from the [original URL](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and saved into `uci_har_dataset.zip`. Then zip file is extracted.
 
 After making sure that data dir is in place, the main data transformation proceeds in the following steps:
 
