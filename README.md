@@ -65,7 +65,7 @@ After making sure that data dir is in place, the main data transformation procee
 
     Up until now measurement columns still have their automatic column names in format *V?*. In this step, they are renamed to more descriptive names using feature-measurement names that were loaded and used in the 2nd step.
 
-    Straight features names could be used but I transform them to be a little bit more tidy and reader-friendly: symbols `()-` are removed, names are camel-cased, also some errors are fixed, like `BodyBody` in certain variable.s Thus column corresponding to measurement *fBodyBodyGyroJerkMag-mean()* is named *fBodyGyroJerkMagMean*.
+    Straight features names could be used but I transform them to be a little bit more tidy and reader-friendly: symbols `()-` are removed, names are camel-cased, also some errors are fixed, like `BodyBody` in certain variables.  Thus column corresponding to measurement *fBodyBodyGyroJerkMag-mean()* is named *fBodyGyroJerkMagMean*.
 
 5. A new tidy dataset is created with the average of each variable for each activity and each subject. I selected long format of tidy data.
 
