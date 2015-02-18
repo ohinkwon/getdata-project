@@ -1,4 +1,4 @@
-# Load dplyr and data.table
+# Load packages
 library(dplyr)
 library(reshape2)
 
